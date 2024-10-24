@@ -1,0 +1,296 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.head strong
+{
+    font-size: 30px;;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+.head ul
+{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    margin-top:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head a
+{
+    font-size: larger;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    
+}
+.head a:hover
+{
+    text-decoration: underline;
+    transition: all ease-in-out 2.5s;
+}
+.logo
+{ 
+    display: flex;
+    gap:12px;
+    margin-top:10px;
+    margin-right: 21px;
+}
+.bxs-bell
+{
+    color:rgb(53, 179, 137);
+    font-size: 30px;
+    cursor: pointer;
+}
+.bxs-bell:hover
+{
+    color:hsl(160, 83%, 48%);
+}
+.navbar
+{
+    margin-top:20px;
+    height: 250px;
+   background-image: url('Images/swiss_faded_with_white.png');
+   background-position: center;
+   background-size: cover;
+   padding:10px;
+   min-width:40%;
+}
+.text
+{
+    margin-left:40px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.text h2
+{
+    font-size:35px;
+}
+.text p
+{
+    font-size:20px;
+}
+.nav
+{
+    display: flex;
+    gap:15px;
+    margin-left:40px;
+    margin-right: 40px;
+    background-color: rgb(255, 255, 255);
+    padding:15px;
+    min-width:800px;
+    padding-left: 20px;
+    border-radius: 10px;
+    
+}
+.accomadation
+{
+    display: flex;
+    width:30%;
+    gap:49%;
+    border:2px solid rgb(196, 196, 196);
+    padding:15px;
+    background-color: white;
+}
+.accomadation:hover
+{
+    background-color: rgb(207, 207, 207);
+}
+.bx-home-alt-2
+{
+    color:rgb(78, 78, 78);
+    font-size: large;
+}
+.Check-in
+{
+    display: flex;
+    gap:60%;
+    width:25%;
+    border:2px solid rgb(196, 196, 196);
+    padding:15px;
+    background-color: white;
+}
+.Check-in:hover
+{
+    background-color: rgb(207, 207, 207);
+}
+.Check-out
+{
+    display: flex;
+    gap:57%;
+    width:25%;
+    border:2px solid rgb(196, 196, 196);
+    padding:15px;
+    background-color: white;
+}
+.Check-out:hover
+{
+    background-color: rgb(207, 207, 207);
+}
+.bx-calendar-alt
+{
+    color:rgb(78, 78, 78);
+    font-size: large;
+}
+.Guest
+{
+    display: flex;
+    width:25%;
+    gap:72%;
+    border:2px solid rgb(196, 196, 196);
+    padding:15px;
+    background-color: white;
+}
+.Guest:hover
+{
+    background-color: rgb(207, 207, 207);
+}
+.bx-user
+{
+    color:rgb(78, 78, 78);
+    font-size: large;
+    text-align: center;
+}
+.search
+{
+    display: flex;
+    width:30%;
+    padding:15px;
+    gap:5px;
+    justify-content: center;
+    color:white;
+    background-color:rgb(53, 179, 137);
+    cursor: pointer;
+}
+.search:hover
+{
+    background-color:hsl(160, 54%, 55%);
+}
+.search p
+{
+    margin-right:10px;
+}
+.card-img
+{
+    margin:50px;
+    display: flex;
+    gap:45px;
+}
+.card1
+ {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    width:22.5%;
+    height:400px;
+  }
+.card1:hover
+ {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+}
+.card1 img
+{
+    height:285px;
+}
+.container 
+{
+    padding: 2px 16px;
+    margin:5px;
+}
+.star
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.bxs-star
+{
+    color:rgb(250, 217, 0);
+    font-size: 18px;
+}
+.show-more
+{
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+}
+#but
+{
+    margin-bottom:20px;
+    color:rgb(53, 179, 137);
+    border:3px solid rgb(53, 179, 137);
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#but:hover
+{
+    color:hsl(160, 54%, 55%);
+    border:3px solid hsl(160, 54%, 55%);
+}
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    height: 40%;
+    background-color: rgb(234, 234, 234);
+    font-size:25px;
+}
+.support
+{
+    margin-left: 20px;
+}
+footer a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+footer a:hover
+{
+    text-decoration: underline;
+}
+.local
+{
+    margin-right: 20px;
+}
+.end
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.end p
+{
+    margin-left: 20px;
+    padding: 5px;
+}
+.last
+{
+    display: flex;
+    gap:20px;
+    margin-right: 25px;
+    padding:5px;
+}
+.last a
+{
+    text-decoration: none;
+    color: black;
+
+}
+.last a:hover
+{
+    text-decoration: underline;
+}
